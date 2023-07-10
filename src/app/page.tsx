@@ -1,8 +1,4 @@
-import Image from 'next/image'
 import { Button } from '@nextui-org/button'
-
-import { db } from '@/lib/db'
-import { UsersTable } from '@/lib/db/schema'
 
 export default async function Home() {
   return (

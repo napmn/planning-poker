@@ -2,6 +2,6 @@
 
 import { NextUIProvider } from '@nextui-org/system'
 
-export const Providers: React.FC<React.PropsWithChildren> = ({ children }) => {
+export const ClientProviders: React.FC<React.PropsWithChildren> = ({ children }) => {
   return <NextUIProvider>{children}</NextUIProvider>
 }
